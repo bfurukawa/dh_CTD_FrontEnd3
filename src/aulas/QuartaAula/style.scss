@@ -1,0 +1,28 @@
+.quarta-aula-component{
+    *{
+        color:lightgray;
+    }
+    
+
+    .main-title{
+        font-size: 25px;
+        padding: 50px;
+        text-align: center;
+    }
+
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    li {
+        margin: 15px;
+        border: 15px;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+    }
+}
